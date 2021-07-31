@@ -1,0 +1,98 @@
+#difficulty{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 1rem;
+}
+
+.puff-in-central{
+    height: 86px;
+    width: 89px;
+    display: inline-block;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    color: #12232E;
+}
+
+.cell{
+    height: 90px;
+    width: 93px;
+    background: none;
+    border: 2px solid #203647;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    margin: 3rem auto;   
+}
+
+#player-selection{
+    display: flex;
+    justify-content: center;
+}
+
+.display-container{
+    background: #553d67;
+    display: flex;
+    justify-content: center;
+}
+
+.no-brd-r{
+    border-right: none;
+}
+
+.no-brd-t{
+    border-top: none;
+}
+
+.no-brd-b{
+    border-bottom: none;
+}
+
+.no-brd-left{
+    border-left: none;
+}
+
+.btn{
+    width: 15rem;
+    height: 2.5rem;
+    margin: 1rem;
+    background: White;
+    font-size: 1rem;
+    box-shadow: none;
+    color: gray;
+    font-weight: 600;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.selected{
+    border: 2px solid #203647;
+    color: #203647;
+}
+
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    margin: 1rem auto 0 auto;
+}
+
+.restart{
+    background: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.6rem 0;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
